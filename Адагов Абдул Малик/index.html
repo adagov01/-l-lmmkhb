@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>object</title>
+</head>
+<body>
+    
+
+
+
+<script>
+
+let man = {
+
+Name: 'Malik',
+
+Surname: 'Adagov',
+
+Height: 183,
+
+Password1: 555,
+
+Login1: 'abdul',
+
+study: function(){
+
+    let Login = prompt('Text your login')
+
+    let Password = prompt('And your Password')
+
+    if(Login == this.Login1 && Password == this.Password1){
+
+        console.log(`Welcome ${this.Surname} ${this.Name}!`)
+
+    }else{
+
+        console.log('Wrong Login or Password')
+
+    }
+
+}
+
+}
+
+man.Adress = 'arbat skskxe2'
+
+console.log()
+
+man.study()
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
